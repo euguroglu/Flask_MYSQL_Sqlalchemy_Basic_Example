@@ -17,7 +17,7 @@ class Member(db.Model):
     email = db.Column(db.String(50))
     join_date = db.Column(db.DateTime)
 
-    def __init__():
+    def __init__(self,username,password,email,join_date):
 
         self.username = username
         self.password = password
